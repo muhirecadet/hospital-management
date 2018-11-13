@@ -8,7 +8,7 @@ if (empty($_SESSION['admin']) OR empty($_SESSION['type'])) {
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Add Room - HMS</title>
+	<title>Add A Room - HMS</title>
 	<link rel="stylesheet" type="text/css" href="../assets/style.css">
 </head>
 <body>
