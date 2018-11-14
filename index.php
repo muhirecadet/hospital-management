@@ -24,7 +24,7 @@ elseif (!empty($_SESSION['bursar'])&&!empty($_SESSION['type'])) {
 	<style type="text/css">
 	body
 	{
-		background-color: #;
+		background-color:green;
 	}
 		.wrapper
 		{
@@ -70,7 +70,7 @@ elseif (!empty($_SESSION['bursar'])&&!empty($_SESSION['type'])) {
 			height: 35px;
 			width: 90%;
 			border: 0;
-			background-color: #408080;
+			background-color:green;
 			margin: 0;
 			color: white;
 			font-weight: bold;
