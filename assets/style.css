@@ -1,8 +1,10 @@
 body{
+	background-image:url(bc.jpg)
 	margin: 0;
 	padding: 0;
-	background-color: #A69C9B;
+	background-color:;
 	font-family: Arial,Lucida Sans;
+	color:green;
 }
 .wrapper{
 	min-height: 400px;
@@ -14,8 +16,9 @@ body{
 .header{
 	height: 50px;
 	width: 100%;
-	background-color: #408080;
+	background-color: #408000;
 	float: left;
+	color:beige;
 }
 .headerleft{
 	height: auto;
@@ -46,6 +49,7 @@ body{
 	background-color: #408080;
 	float: left;
 	margin-top: 10px;
+	color:green;
 }
 .left{
 	min-height: 400px;
@@ -63,7 +67,7 @@ body{
 	background-color: #408080;
 	border: 0;
 	margin: 0;
-	color: white;
+	color: #933;
 	cursor: pointer;
 }
 .right{
@@ -71,7 +75,7 @@ body{
 	max-height: auto;
 	width: 79%;
 	margin-left: 8px;
-	background-color: white;
+	background-color: #C9F;
 	margin-top: 10px;
 	float: left;
 }
@@ -93,6 +97,7 @@ body{
 	height: 30px;
 	border: 1px solid #ccc;
 	border-collapse: collapse;
+	color: #933;
 }
 .form
 {
@@ -118,7 +123,11 @@ table{
 		width: 100%;
 	}
 	.right{
-		width: 100%;
-		margin-left: 0px;
+	width: 100%;
+	margin-left: 0px;
+	color: #933;
 	}
+}
+.wrapper .right div {
+	color: #933;
 }
